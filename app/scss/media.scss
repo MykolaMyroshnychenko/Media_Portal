@@ -1,0 +1,685 @@
+//   ******МЕНЮ******
+
+// ПОИСК
+
+@media(max-width: 1200px) {
+	.menu .menu-list input {
+    width: 100%;
+	}
+}
+
+@media(max-width: 992px) {
+	.menu .menu-list input {
+    width: 90%;
+	}
+}
+
+@media(max-width: 768px) {
+	.menu .menu-list input {
+    width: 70%;
+		height: 30px;
+	}
+}
+
+@media(max-width: 576px) {
+	.menu .menu-list input {
+    width: 50%;
+		height: 15px;
+		font-size: 8px;
+	}
+}
+
+// СЛОВО МЕНЮ
+@media(max-width: 992px) {
+	.menu-list h5 {
+    font-size: 18px;
+	}
+}
+
+@media(max-width: 768px) {
+	.menu-list h5 {
+    font-size: 14px;
+	}
+}
+
+@media(max-width: 576px) {
+	.menu-list h5 {
+    font-size: 8px;
+	}
+}
+//ПОДЧЕРКИВАНИЕ СЛОВА МЕНЮ
+@media(min-width: 1400px) {
+	.line-menu {
+    width: 30%;
+	}
+}
+
+@media(max-width: 1399px) {
+	.line-menu {
+    width: 50%;
+    height: 5px;
+	}
+}
+
+@media(max-width: 768px) {
+	.line-menu {
+    width: 40%;
+    height: 4px;
+	}
+}
+
+@media(max-width: 576px) {
+	.line-menu {
+    width: 30%;
+    height: 2px;
+	}
+}
+
+// МЕНЮ ОГЛАВЛЕНИЕ
+@media(max-width: 992px) {
+  .menu-sheet a {
+    font-size: 14px;
+	}
+}
+
+@media(max-width: 768px) {
+  .menu-sheet a {
+    font-size: 12px;
+	}
+}
+
+@media(max-width: 576px) {
+  .menu-sheet a {
+    font-size: 8px;
+	}
+}
+
+// МЕНЮ ОГЛАВЛЕНИЕ ПОДЧЕРКИВАНИЕ
+@media(max-width: 1400px) {
+	.line-light-list {
+    margin: 15px 0;
+	}
+}
+
+@media(max-width: 768px) {
+	.line-light-list {
+    margin: 10px 0;
+		width: 200%;
+	}
+}
+
+@media(max-width: 576px) {
+  .line-light-list {
+    margin: 5px 0;
+		width: 300%;
+	}
+}
+
+// ИНФОРМАЦИЯ ПРО НАС
+
+@media(max-width: 992px) {
+	.menu .about {
+    font-size: 18px;
+	}
+}
+
+@media(max-width: 768px) {
+  .menu .about {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 576px) {
+  .menu .about {
+    font-size: 8px;
+  }
+}
+
+// ИНФОРМАЦИЯ ПРО НАС ПОДЧЕРКИВАНИЕ
+
+@media(min-width: 1400px) {
+	.menu .line-about {
+    width: 85%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 1399px) {
+	.menu .line-about {
+    width: 85%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 768px) {
+  .menu .line-about {
+    width: 65%;
+		height: 4px;
+  }
+}
+
+@media(max-width: 576px) {
+  .menu .line-about {
+    width: 35%;
+		height: 2px;
+  }
+}
+
+// КНОПКА ДАЛЕЕ
+
+@media(max-width: 1200px) {
+	.button-menu-next {
+		width: 100px;
+		padding: 5px;
+		border: 3px solid #56aff7;
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 768px) {
+	.button-menu-next {
+		width: 80px;
+		padding: 5px;
+		border: 3px solid #56aff7;
+		font-size: 10px;
+	}
+}
+
+@media(max-width: 576px) {
+	.button-menu-next {
+		width: 45px;
+		padding: 3px;
+		border: 2px solid #56aff7;
+		font-size: 8px;
+	}
+}
+
+// ПОМОЩЬ
+@media(max-width: 992px) {
+	.help {
+    font-size: 18px;
+	}
+}
+
+@media(max-width: 768px) {
+	.help {
+    font-size: 14px;
+	}
+}
+
+@media(max-width: 576px) {
+	.menu .help {
+    font-size: 8px;
+	}
+}
+
+// ПОМОЩЬ ПОДЧЕРКИВАНИЕ
+
+@media(min-width: 1400px) {
+	.line-help {
+		width: 40%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 1399px) {
+	.line-help {
+		width: 75%;
+		height: 5px;
+	}
+}
+
+
+@media(max-width: 768px) {
+	.line-help {
+		width: 65%;
+		height: 4px;
+	}
+}
+
+@media(max-width: 576px) {
+	.line-help {
+		width: 50%;
+		height: 2px;
+	}
+}
+// КАРТИНКИ МЕНЮ
+
+@media(min-width: 1400px) {
+	.menu .menu-img {
+    width: 260px;
+    height: 100px;
+	}
+}
+
+@media(max-width: 1399px) {
+	.menu .menu-img {
+    width: 200px;
+    height: 100px;
+	}
+}
+
+@media(max-width: 1200px) {
+  .menu .menu-img {
+    width: 160px;
+    height: 120px;
+  }
+}
+
+@media(max-width: 992px) {
+  .menu .menu-img {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+@media(max-width: 768px) {
+  .menu .menu-img {
+    width: 90px;
+    height: 60px;
+  }
+}
+
+@media(max-width: 576px) {
+  .menu .menu-img {
+    width: 50px;
+    height: 30px;
+  }
+}
+
+//ТЕКСТ МЕНЮ
+
+@media(max-width: 768px) {
+  .menu p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 576px) {
+  .menu p {
+    font-size: 8px;
+    padding-right: 20px;
+    width: 50%;
+  }
+}
+
+// КОНТАКТЫ
+
+@media(max-width: 1400px) {
+	.contact {
+
+	}
+}
+
+@media(max-width: 1200px) {
+	.contact {
+
+	}
+}
+
+@media(max-width: 768px) {
+	.contact {
+
+	}
+}
+
+@media(max-width: 576px) {
+	.contact {
+    font-size: 8px;
+	}
+}
+
+//ЗНАЧКИ КОНТАКТОВ
+
+@media(max-width: 992px) {
+	.indent .icon {
+    width: 80%;
+	}
+}
+
+@media(max-width: 768px) {
+	.indent .icon {
+    width: 70%;
+	}
+}
+
+@media(max-width: 576px) {
+	.indent .icon {
+    width: 70%;
+	}
+}
+
+//---------------------------------------------------------------------------
+// ГЛАВНАЯ СТРАНИЧКА
+
+// СМИ + подчерквивание
+@media(max-width: 768px) {
+	.header h3 {
+		font-size: 20px;
+	}
+}
+
+@media(max-width: 576px) {
+	.header h3 {
+		font-size: 18px;
+		border-bottom: 4px solid #56aff7;
+		padding-bottom: 8px;
+	}
+}
+
+// РАБОТА МЕЧТЫ
+@media(max-width: 768px) {
+	.main h1 {
+		font-size: 36px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main h1 {
+		font-size: 28px;
+	}
+}
+
+// ЧТО ИЗ СЕБЯ ПРЕДСТАВЛЯЕТ
+
+@media(max-width: 768px) {
+	.main h4 {
+		font-size: 24px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main h4 {
+		font-size: 16px;
+	}
+}
+
+// ТЕКСТ СТАТЬИ
+
+@media(max-width: 768px) {
+	.main p {
+		font-size: 22px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main p {
+		font-size: 14px;
+	}
+}
+
+// КНОПКА ЧИТАТЬ ДАЛЕЕ
+
+@media(max-width: 576px) {
+	.button-read-more {
+		width: 150px;
+		padding: 5px;
+		font-size: 14px;
+	}
+}
+
+// КАРТИНКА GOOGLE
+
+@media(max-width: 1200px) {
+	.main .img-google {
+		width: 100%;
+		height: 450px;
+	}
+}
+
+@media(max-width: 992px) {
+	.main .img-google {
+		width: 100%;
+		height: 400px;
+	}
+}
+
+@media(max-width: 768px) {
+	.main .img-google {
+		width: 100%;
+		height: 350px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main .img-google {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+@media(max-width: 415px) {
+	.main .img-google {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+// ПОДЧЕРКИВАНИЕ ПОД КАРТИНКОЙ
+
+@media(max-width: 992px) {
+	.main .line-light-2 {
+		padding-bottom: 50px;
+	  margin-bottom: 70px;
+	}
+}
+
+// ПОСЛЕДНИЕ ОПУБЛИКОВАННЫЕ
+
+@media(max-width: 768px) {
+	.main-center h3 {
+		font-size: 20px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main-center h3 {
+		font-size: 18px;
+	}
+}
+
+// ПОСЛЕДНИЕ ОПУБЛИКОВАННЫЕ ПОДЧЕРКИВАНИЕ
+
+@media(max-width: 1200px) {
+	.main-center .line-h3 {
+		width: 45%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 992px) {
+	.main-center .line-h3 {
+		width: 60%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main-center .line-h3 {
+		width: 90%;
+		height: 4px;
+	}
+}
+
+// РАЗДЕЛЕНИЕ МЕЖДУ КАРТИНКАМИ
+
+@media(max-width: 992px) {
+	section .cent-2 {
+		padding-right: 0px;
+	  border-bottom: 2px solid #bababa;
+		border-right: 0px solid #bababa;
+		padding-top: 50px;
+	}
+}
+
+// РАЗДЕЛЕНИЕ МЕЖДУ КАРТИНКАМИ
+
+@media(max-width: 992px) {
+	section .cent {
+	  border-bottom: 2px solid #bababa;
+		border-right: 0px solid #bababa;
+		padding-top: 50px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+@media(max-width: 992px) {
+	section .cent-1 {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+// РАЗДЕЛЕНИЕ МЕЖДУ КАРТИНКАМИ ШИРИНА
+@media(max-width: 992px) {
+	section .cent-3 {
+		padding-top: 50px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+// РАЗДЕЛЕНИЕ МЕЖДУ КАРТИНКАМИ ШИРИНА
+@media(max-width: 1400px) {
+	.line-light {
+		width: 100%;
+	}
+}
+
+@media(max-width: 992px) {
+	.line-light {
+		width: 100%;
+	}
+}
+
+// РАЗДЕЛЕНИЕ МЕЖДУ КАРТИНКАМИ ШИРИНА
+@media(max-width: 992px) {
+	.line-light-1 {
+		padding-bottom: 10px;
+		width: 105%;
+	}
+}
+
+// ЗАГОЛОВОК СТАТЬИ ПОД КАРТИНКОЙ
+@media(max-width: 768px) {
+ .bottom-h {
+	 font-size: 20px;
+ }
+}
+
+@media(max-width: 576px) {
+  .bottom-h {
+	 font-size: 18px;
+ }
+}
+// ТЕКСТ СТАТЬИ ПОД КАРТИНКОЙ
+
+@media(max-width: 768px) {
+	.main-center p {
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main-center p {
+		font-size: 14px;
+	}
+}
+
+// КНОПКА ДАЛЕЕ
+
+@media(max-width: 768px) {
+	.button-next {
+		width: 120px;
+	  margin-top: 40px;
+	  margin-bottom: 60px;
+	  padding: 10px;
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 576px) {
+		.button-next {
+			width: 90px;
+		  margin-top: 30px;
+		  margin-bottom: 50px;
+		  padding: 8px;
+			font-size: 12px;
+	}
+}
+
+// КНОПКА ДЕТАЛИ
+
+@media(max-width: 768px) {
+	.button-details {
+		width: 120px;
+	  margin-top: 20px;
+	  margin-bottom: 80px;
+	  padding: 10px;
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 576px) {
+		.button-details {
+			width: 90px;
+		  margin-top: 10px;
+		  margin-bottom: 70px;
+		  padding: 8px;
+			font-size: 12px;
+	}
+}
+
+// СЛОВО ИНФОРМАЦИЯ ПОДЧЕРКИВАНИЕ
+
+@media(max-width: 1400px) {
+	.main-center .line-info {
+		width: 20%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.main-center .line-info {
+		width: 23%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 992px) {
+	.main-center .line-info {
+		width: 30%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 768px) {
+	.main-center .line-info {
+		width: 33%;
+		height: 5px;
+	}
+}
+
+@media(max-width: 576px) {
+	.main-center .line-info {
+		width: 40%;
+		height: 4px;
+	}
+}
+
+@media(max-width: 415px) {
+	.main-center .line-info {
+		width: 55%;
+		height: 4px;
+	}
+}
+
+// ИКОНКИ
+
+@media(max-width: 576px) {
+	.indent-img {
+		margin-left: 30px;
+		width: 60px;
+		height: 60px;
+	}
+}

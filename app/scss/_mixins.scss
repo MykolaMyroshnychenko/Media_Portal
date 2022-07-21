@@ -1,0 +1,33 @@
+@mixin button-style ($width, $m-top, $m-bottom, $padding...) {
+  width: $width;
+  margin-top: $m-top;
+  margin-bottom: $m-bottom;
+  padding: $padding;
+  background: #fff;
+  border-radius: 5px;
+  border: 3px solid #56aff7;
+  color: #56aff7;
+  font-weight: normal;
+}
+
+@mixin line ($width) {
+  width: $width;
+  color: #56aff7;
+  background-color: #56aff7;
+  height: 5px;
+  margin-bottom: 25px;
+}
+
+@mixin line-light ($pad-bottom, $mar-bottom) {
+  padding-bottom:$pad-bottom;
+  margin-bottom: $mar-bottom;
+  border-bottom: 2px solid #bababa;
+  width: 100%;
+}
+
+@mixin img-center ($mar-bottom) {
+  width: 100%;
+  border-radius: 5px;
+  transition: 1s;
+  margin-bottom: $mar-bottom;
+}
